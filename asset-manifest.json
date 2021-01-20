@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DmitryKam/Employees/static/css/main.f19da210.chunk.css",
+    "main.js": "/DmitryKam/Employees/static/js/main.cb602646.chunk.js",
+    "main.js.map": "/DmitryKam/Employees/static/js/main.cb602646.chunk.js.map",
+    "runtime-main.js": "/DmitryKam/Employees/static/js/runtime-main.d30ca8db.js",
+    "runtime-main.js.map": "/DmitryKam/Employees/static/js/runtime-main.d30ca8db.js.map",
+    "static/js/2.91055d7c.chunk.js": "/DmitryKam/Employees/static/js/2.91055d7c.chunk.js",
+    "static/js/2.91055d7c.chunk.js.map": "/DmitryKam/Employees/static/js/2.91055d7c.chunk.js.map",
+    "static/js/3.ef62fb48.chunk.js": "/DmitryKam/Employees/static/js/3.ef62fb48.chunk.js",
+    "static/js/3.ef62fb48.chunk.js.map": "/DmitryKam/Employees/static/js/3.ef62fb48.chunk.js.map",
+    "index.html": "/DmitryKam/Employees/index.html",
+    "static/css/main.f19da210.chunk.css.map": "/DmitryKam/Employees/static/css/main.f19da210.chunk.css.map",
+    "static/js/2.91055d7c.chunk.js.LICENSE.txt": "/DmitryKam/Employees/static/js/2.91055d7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d30ca8db.js",
+    "static/js/2.91055d7c.chunk.js",
+    "static/css/main.f19da210.chunk.css",
+    "static/js/main.cb602646.chunk.js"
+  ]
+}
