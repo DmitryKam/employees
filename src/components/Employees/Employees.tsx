@@ -1,7 +1,7 @@
 import React, {ChangeEvent, useCallback, useEffect, useState} from 'react';
 
 import {EmployeeType} from '../../api/employeeApi';
-import {Employee} from './Employee/Emplyee';
+import Employee from './Employee/Emplyee';
 import styles from './Employees.module.css';
 import {getEmployees} from '../../services/employee';
 
@@ -10,8 +10,7 @@ import Button from '@material-ui/core/Button';
 import Badge from '@material-ui/core/Badge/Badge';
 import FaceIcon from '@material-ui/icons/Face';
 
-
-export const Employees = () => {
+const Employees = () => {
 
     const [employees, setEmployees] = useState<EmployeeType[]>([]);
     const [employeeName, setEmployeeName] = useState<string>('');
@@ -76,3 +75,5 @@ export const Employees = () => {
         </div>
     );
 };
+
+ export default Employees;

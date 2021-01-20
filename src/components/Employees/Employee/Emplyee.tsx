@@ -19,8 +19,7 @@ type EmployeePropsType = {
     deleteEmployee: (id: number) => void
 }
 
-
-export const Employee: React.FC<EmployeePropsType> = React.memo(({firstName, id, deleteEmployee}) => {
+const Employee: React.FC<EmployeePropsType> = React.memo(({firstName, id, deleteEmployee}) => {
 
 
     const onClickHandler = () => {
@@ -49,3 +48,5 @@ export const Employee: React.FC<EmployeePropsType> = React.memo(({firstName, id,
         </div>
     </Grid>
 })
+
+export default Employee
