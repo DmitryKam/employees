@@ -45,7 +45,7 @@ const Employees = () => {
             <div className={styles.addEmployeeContainer}>
                 <div className={styles.employeeBlockHeader}>Add New Employee</div>
                 <div>
-                    <TextField id="outlined-basic" label="Add employee" variant="outlined"
+                    <TextField id={'outlined-basic'} label={'Add employee'} variant={'outlined'}
                                onChange={handleEmployeeNameChange} value={employeeName}/>
                 </div>
                 <div className={styles.buttonAddEmployeeContainer}>
@@ -59,7 +59,7 @@ const Employees = () => {
             <div className={styles.employeesBlock}>
                 <div className={styles.employeeBlockHeader}>
                     Employees list
-                    <Badge badgeContent={employees.length} color="secondary">
+                    <Badge badgeContent={employees.length} color={'secondary'}>
                         <FaceIcon/>
                     </Badge>
                 </div>

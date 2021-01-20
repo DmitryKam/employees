@@ -6,7 +6,7 @@ import Employees from '../components/Employees/Employees';
 import {Home} from '../components/Home/Home';
 
 export const Path = {
-    EMPLOYEES: '/employeess',
+    EMPLOYEES: '/employees',
     HOME: '/',
 };
 

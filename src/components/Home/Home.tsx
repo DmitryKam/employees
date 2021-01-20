@@ -20,10 +20,10 @@ export const Home = () => {
         <Card className={styles.homeContainer}>
             <CardActionArea>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom variant={'h5'} component="h2">
                         React
                     </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
+                    <Typography variant={"body2"} color={'textSecondary'} component={'p'}>
                         С использованием библиотеки React реализовать приложение, которое умеет
                         показывать следующие страницы: ● / — главная ● /employees — страница со
                         списком сотрудников На сайте, в шапке реализовать ссылки: ● Главная ●
@@ -35,7 +35,7 @@ export const Home = () => {
                         их просто должно быть видно в текущем представлении. Оформление (дизайн) —
                         не важно.
                     </Typography>
-                    <Button variant="contained" color="secondary" href={Path.EMPLOYEES}>
+                    <Button variant={'contained'} color={'secondary'} href={Path.EMPLOYEES}>
                         Go To Employees List
                     </Button>
                 </CardContent>

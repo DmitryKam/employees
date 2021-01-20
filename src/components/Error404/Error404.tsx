@@ -15,7 +15,7 @@ export const Error404 = () => {
                 <div className={s.msg}>Maybe this page moved? Got deleted?
                     Is hiding out in quarantine? Never existed in
                     the first place?
-                    <p>Let's go <a className={s.a} href="/">home</a> and try from there.</p>
+                    <p>Let's go <a className={s.a} href={'/'}>home</a> and try from there.</p>
                 </div>
             </div>
         </div>

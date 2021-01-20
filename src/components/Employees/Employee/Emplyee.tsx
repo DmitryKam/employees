@@ -37,7 +37,7 @@ const Employee: React.FC<EmployeePropsType> = React.memo(({firstName, id, delete
                                 primary={firstName}
                             />
                             <ListItemSecondaryAction>
-                                <IconButton edge="end" aria-label="delete" onClick={onClickHandler}>
+                                <IconButton edge={'end'} aria-label={'delete'} onClick={onClickHandler}>
                                     <DeleteIcon/>
                                 </IconButton>
                             </ListItemSecondaryAction>
