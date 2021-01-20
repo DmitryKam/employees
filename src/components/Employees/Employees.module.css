@@ -1,0 +1,33 @@
+.employeesBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employeeBlockHeader {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: "Roboto", "sans-serif";
+    padding: 20px;
+}
+
+.employeesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+}
+
+.addEmployeeForm {
+    display: flex;
+}
+
+.addEmployeeContainer {
+    margin: 0 20px;
+}
+
+.buttonAddEmployeeContainer {
+    margin: 10px 0;
+}
